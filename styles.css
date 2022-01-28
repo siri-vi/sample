@@ -1,0 +1,307 @@
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+/* navbar */
+#navigation {
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  height: 70px;
+  border-radius: 0 0 12px 12px;
+}
+
+.navbar-brand {
+  padding: 3px 42px;
+}
+
+.navbar-brand img {
+  height: 44px;
+}
+
+.navbar-nav {
+  padding-right: 5%;
+}
+
+.nav-item {
+  color: black;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 10px;
+  font-size: 17px;
+}
+
+.nav-button {
+  padding: 8px 3px;
+  border-radius: 15px;
+  font-size: 18px;
+  text-align: center;
+  height: 45px;
+}
+
+.login {
+  background: white;
+  width: 85px;
+}
+
+#navigation .item-style {
+  color: black;
+}
+
+#navigation .signup {
+  color: #fff;
+  background: #ff1949;
+}
+
+/* header left */
+.bigblob {
+  position: absolute;
+  z-index: -1;
+  top: -350px;
+  left: -450px;
+}
+
+.header-left {
+  padding: 2% 5% 2% 8.5%;
+}
+
+.big-heading {
+  font-size: 4.1rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.learn-style {
+  color: #ff1949;
+}
+
+.header-p {
+  font-size: 1.1rem;
+  padding: 25px 0;
+}
+
+.button {
+  background: #ff1949;
+  color: #fff;
+  border-radius: 15px;
+  padding: 14px 14px 14px 23px;
+  margin: 0 0 40px;
+  width: 227px;
+}
+
+.fa-arrow-alt-circle-right {
+  padding-left: 15px;
+}
+
+.face-pic {
+  width: 10%;
+  border-radius: 100%;
+  position: relative;
+}
+
+.pic2 {
+  right: 15px;
+}
+
+.pic3 {
+  right: 30px;
+}
+
+.pic4 {
+  right: 45px;
+}
+
+.pic5 {
+  right: 60px;
+}
+
+.header-span {
+  font-size: 0.8rem;
+  position: relative;
+  right: 55px;
+}
+
+/* header-right */
+#header {
+  padding-bottom: 70px;
+  z-index: -2;
+}
+
+.header-right {
+  padding: 2% 7% 0 16%;
+  text-align: center;
+}
+
+.header-right-p {
+  font-size: 1.2rem;
+}
+
+.flag {
+  width: 75px;
+  margin: 10px;
+}
+
+/* features */
+#features {
+  text-align: center;
+  padding: 80px;
+}
+
+.feature {
+  margin-bottom: 35px;
+}
+
+h2 {
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: 600;
+  padding-bottom: 60px;
+}
+
+.feature img {
+  height: 130px;
+  margin: 10px;
+}
+
+h4 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.feature p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding: 10px 38px;
+}
+
+/* benefit */
+#benefits {
+  text-align: center;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding: 0 0 10px;
+}
+
+h5 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.b-button {
+  text-align: center;
+  padding: 10px;
+}
+
+#benefits .row {
+  padding: 35px;
+}
+
+#benefits .card {
+  margin: 30px;
+  border-radius: 4%;
+  height: 440px;
+}
+
+#benefits img {
+  width: 200px;
+  margin: 18px;
+}
+
+.card-body {
+  color: grey;
+}
+
+h6 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 10px 0 0 0;
+}
+
+#benefits p {
+  font-weight: 400;
+  padding: 15px;
+}
+
+.card-title {
+  margin: 5px 0 0 0;
+}
+
+.feature .number {
+  background-image: url("images/blob1.png");
+  height: 130px;
+  width: 130px;
+}
+
+/* cta */
+#cta {
+  background-color: #fedbe2;
+  margin: 50px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+#cta h3 {
+  margin-top: 15px;
+}
+
+#cta button {
+  margin: 15px 0;
+}
+
+/* footer */
+#footer {
+  background-color: #eaf5fb;
+  border-radius: 40px 40px 0 0;
+  line-height: 1.5;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.main {
+  padding: 50px 20px 0;
+}
+
+#footer span {
+  padding-left: 5px;
+  border-left: solid 1.5px black;
+}
+
+#footer .heading {
+  font-weight: 600;
+}
+
+#footer li {
+  padding: 5px;
+}
+
+#footer img {
+  width: 23px;
+  margin-right: 5px;
+}
+
+#footer hr {
+  background-color: #000000;
+  clear: both;
+  text-align: center;
+  margin: 20px 4%;
+}
+
+.f1 {
+  padding: 0 63px;
+}
+
+.f2 {
+  position: relative;
+  left: 345px;
+}
